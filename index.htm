@@ -1,48 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-    <link href="style.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/b30bf87da3.js" crossorigin="anonymous"></script>
-    <title>Helping Hut NGO</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/b30bf87da3.js" crossorigin="anonymous"></script>
+  <title>Helping Hut NGO</title>
+</head>
+
+<body>
+  <div class="container-fluid w-100 m-0 p-0">
+    <nav class="navbar fixed-top navbar-expand-lg nav-bg w-100">
       <div class="container-fluid">
-        <img src="Images/logo.jpg" id="logo" />
+        <img src="Images/logo1.jpg" id="logo" />
         <h2 class="help-hut">HELPING HUT</h2>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto nav-align">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About Us
               </a>
               <ul class="dropdown-menu">
@@ -59,12 +46,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our Works
               </a>
               <ul class="dropdown-menu">
@@ -86,10 +68,10 @@
             </li>
             <li class="nav-item">
               <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-warning btn-lg">
+                <button type="button" class="btn btn-lg join-us">
                   Join Us
                 </button>
-                <button type="button" class="btn btn-success btn-lg">
+                <button type="button" class="btn btn-lg donate">
                   Donate
                 </button>
               </div>
@@ -98,14 +80,10 @@
         </div>
       </div>
     </nav>
-    <div class="text-bg-success">
-      <marquee direction="left">Ensuring basic needs through positive deeds</marquee>
-    </div>
-    <div
-      id="carouselExampleInterval"
-      class="carousel slide carousel-fade"
-      data-bs-ride="carousel"
-    >
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade mt-5" data-bs-ride="carousel">
+      <div class="w-100 h-100 carousel-top">
+      </div>
+      <h1 class="display-1 carousel-heading">Ensuring basic needs <br> through positive deeds</h1>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="Images/hslide1.jpg" class="d-block w-100" alt="..." />
@@ -123,125 +101,147 @@
           <img src="Images/hslide5.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-            <div class="card mt-lg-5" style="width: 100%;">
-                <div class="text-bg-dark p-3 rounded-top card-heading">UDAAN STREET SCHOOL</div>
-                <img src="Images/Udaann.jpg" class="card-img-bottom" alt="..." />
-                <div class="card-body">
-                <h3 class="text-bg-light">Every child should have the opportunity to recieve a quality
-                    education</h1>
-                <p class="card-text card-para">
-                    Knowledge is power, it's the greatest gift you can
-                    give to someone. You can uplift someone by helping them with
-                    money,shelter or food, but everything you could give to someone
-                    is temporary and will not last long enough. But when you educate
-                    someone with the best of your lifetime you are actually giving
-                    away a piece of yourselves and leaving a long lasting impression
-                    on their life. Education is the greatest blessing one could
-                    receive. All worldly pleasures and amenities will fade away but
-                    the knowledge you impart on other people will always stay with
-                    them by shaping their life in a different manner. Keeping the
-                    same in mind the volunteers at Helping Hut NGO have contributed
-                    significantly to this knowledge sharing initiative- "UDAAN", the
-                    street school for underprivileged kids to help them get their
-                    fair share of education. Not everyone is lucky enough to have
-                    the blessing of education in their life. You can reach the
-                    greatest of heights in your career if you have good knowledge of
-                    your goals. This initiative has helped transform the lives of
-                    many children and helped them know the world around them better
-                    and make better choices for their future.
-                </p>
+    <div class="p-3">
+      <div class="mt-5 body-div1">
+        <h3 class="p-3 display-5 body-head">HELPING HUT</h3>
+        <p class="body-para">Helping Hut is a not for profit non government organization with the visions
+          like helping poor in any way possible, stopping beggary by giving them some
+          occupation and helping poor kids in getting education.</p>
+      </div>
+      <div class="govern mt-4">
+        <h3 class="p-3 display-5 body-head">Governing Body</h3>
+        <div class="container d-grid govern-grid">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 govern-col">
+              <img src="Images/Founder.png" alt="..." class="govern-img">
+              <h4 class="head">Raghvendra Patap Singh</h4>
+              <h5  class="head">Founder & President</h5>
+            </div>
+            <div class="col-lg-4 col-md-6 govern-col">
+              <img src="Images/Secretary.png" alt="..." class="govern-img">
+              <h4 class="head">Prerna Raj</h4>
+              <h5 class="head">Secretary</h5>
+            </div>
+            <div class="col-lg-4 col-md-6 govern-col">
+              <img src="Images/Treasurer.png" alt="..." class="govern-img">
+              <h4 class="head">Mohit Nagar</h4>
+              <h5 class="head">Treasurer</h5>
+            </div>
+            <div class="col-lg-4 col-md-6 govern-col">
+              <img src="Images/Trustee1.png" alt="..." class="govern-img">
+              <h4 class="head">Asha Yadav</h4>
+              <h5 class="head">Trustee</h5>
+            </div>
+            <div class="col-lg-4 col-md-6 govern-col">
+              <img src="Images/Trustee2.png" alt="..." class="govern-img">
+              <h4 class="head">Shubham Agarwal</h4>
+              <h5 class="head">Trustee</h5>
+            </div>
+          </div>
+        </tr>
+      </table>
+        </div>
+      </div>
+
+      <div>
+        <div class="work mt-4">
+          <h3 class="p-3 display-5 body-head">Our Works</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 work-col h-100">
+                <div class="container udaan">
+                  <img src="Images/Udaann.jpg" alt="..." class="img-fluid rounded-3 work-img">
                 </div>
+                <h4 class="mt-4 head">UDAAN STREET SCHOOL</h4>
+              </div>
+              <div class="col-md-6 work-col h-100">
+                <div class="container beg">
+                  <div class="beg1">
+                    <img src="Images/beg1.jpg" alt="..." class="img-fluid rounded-end rounded-3 work-img">
+                  </div>
+                  <div class="beg1">
+                  <img src="Images/beg2.jpg" alt="..." class="img-fluid rounded-start rounded-3 work-img">
+                  </div>
+                </div>
+                <h4 class="head">BEGGAR TRANSFORMATION</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 work-col h-100">
+                <div class="container beg">
+                  <div class="char1 p-1">
+                    <img src="Images/char1.jpg" alt="..." class="img-fluid rounded work-img">
+                  </div>
+                  <div class="char2 p-1">
+                    <img src="Images/char2.jpg" alt="..." class="img-fluid rounded work-img">                    
+                  </div>
+                  <div class="char3 p-1">
+                    <img src="Images/char3.jpg" alt="..." class="img-fluid rounded work-img">                    
+                  </div>
+                  <div class="char4 p-1">
+                    <img src="Images/char4.jpg" alt="..." class="img-fluid rounded work-img">                    
+                  </div>
+                </div>
+                <h4 class="head">CHARITY CARNIVAL</h4>
+              </div>
             </div>
           </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mt-lg-3" style="width: 100%; display: inline-block;">
-            <div class="text-bg-dark p-3 rounded-top card-heading">BEGGAR TRANSFORMATION</div>
-            <img src="Images/beg1.jpg" class="beg" alt="..." />
-            <img src="Images/beg2.jpg" class="beg" alt="..." />
-            <div class="card-body">
-            <p class="card-text card-para" style="padding: 5px; padding-top: 28px;">
-                HELPING HUT helped a beggar from Dwarka, who begged for years to survive, 
-                by providing him with a sewing machine so that he can live his life with 
-                full dignity. Likewise we also provide skills to other beggars to transform 
-                their life for a brighter future.
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card mt-lg-3" style="width: 100%;">
-            <div class="text-bg-dark p-3 rounded-top card-heading">CHARITY CARNIVAL</div>
-            <table>
-              <tr>
-                <td class="img-col">
-                  <img src="Images/char1.jpg" class="d-inline w-100 char-img" alt="...">
-                </td>
-                <td class="img-col">
-                  <img src="Images/char2.jpg" class="d-inline w-100 char-img" alt="...">
-                </td>
-              </tr>
-              <tr>
-                <td class="img-col">
-                  <img src="Images/char3.jpg" class="d-block w-100 char-img" alt="...">
-                </td>
-                <td class="img-col">
-                  <img src="Images/char4.jpg" class="d-block w-100 char-img" alt="...">
-                </td>
-              </tr>
-            </table>
-            <div class="card-body d-block">
-              <p class="card-text card-para">
-                Helping Hut cordially invites you to join our CHARITY CARNIVAL Sponsored by 
-                Silizium-Electronics society of Deen Dayal Upadhyay college University of Delhi 
-                with Ensemble_official & delhi university official as our Media Partner & 
-                Insightone as Application partner for the Event on December 25, 2021. 
-                This carnival is being organised as a way to add fun into the process 
-                of helping people by raising funds through means of games and food stalls in the carnival.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
+    <div class="count mt-4">
+      <h3 class="p-3 display-5 body-head">Our Impact</h3>
+        <div class="row m-3 row-count">
+          <div class="col-lg-3 col-md-4 count-col">
+            <h4>1000+ Study Kits distributed</h4>
+          </div>
+          <hr class="vertical v1">
+          <div class="col-lg-3 col-md-4 count-col">
+            <h4>1500+ Clothes distributed</h4>
+          </div>
+          <hr class="vertical v2">
+          <div class="col-lg-3 col-md-4 count-col">
+            <h4>1000+ Food Packets distributed</h4>
+          </div>
+          <hr class="vertical v3">
+          <div class="col-lg-3 count-col">
+            <h4>500+ Street animals fed</h4>
+          </div>
+        </div>
+        <div class="row m-0 row-count">
+          <div class="col-lg-4 col-md-6 count-col">
+            <h4>1100+ Sanitary Pads distributed in slum areas</h4>
+          </div>
+          <hr class="vertical v4">
+          <div class="col-lg-4 col-md-6 count-col">
+            <h4>500+ Sapling planted in rural areas</h4>
+          </div>
+          <hr class="vertical v5">
+          <div class="col-lg-4 count-col">
+            <h4>500+ Blankets distributed to needy</h4>
+          </div>
+        </div>
+    </div>
 
-    <div class="container-fluid text-bg-dark mt-3 w-100">
-      <div class="row about">
-        <div class="col-md-4 p-5 pt-3">
-          <h4 class="about-head">Helping Hut</h4><br>
-          <p>Helping Hut is a not for profit non government organization with the visions 
-            like helping poor in any way possible, stopping beggary by giving them some 
-            occupation and helping poor kids in getting education.</p>
+
+    <div class="container-fluid mt-3 w-100 about">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 pb-5 pt-3 verified">
+          <h5 class="about-head">Verified by</h5>
+          <hr>
+          <div class="row w-100">
+            <div class="col-md-5">
+              <img src="Images/NITI_Aayog.png" alt="NITI" class="about-img">
+            </div>
+            <div class="col-md-7">
+              <img src="Images/Darpan-logo.png" alt="Darpan" class="about-img">
+            </div>
+          </div>
         </div>
 
-        <div class="col-md-2 p-3">
+        <div class="col-lg-2 col-md-6 p-3">
           <h5 class="about-head">QUICK LINKS</h5>
           <hr>
           <ul class="list-unstyled">
@@ -252,7 +252,7 @@
           </ul>
         </div>
 
-        <div class="col-md-2 p-3">
+        <div class="col-lg-2 col-md-6 p-3">
           <h5 class="about-head">GET INVOLVED</h5>
           <hr>
           <ul class="list-unstyled">
@@ -262,29 +262,20 @@
           </ul>
         </div>
 
-        <div class="col-md-4 p-3">
+        <div class="col-lg-4 col-md-6 p-3">
           <h5 class="about-head">CONTACT US</h5>
           <hr>
-          <p><i class="fa-solid fa-location-dot"></i> Plot No.: 147 A, Street No. 5, D-Block, Bharat Vihar, Kakrola, Dwarka, Delhi - 110078</p>
+          <p><i class="fa-solid fa-location-dot"></i> Plot No.: 147 A, Street No. 5, D-Block, Bharat Vihar, Kakrola,
+            Dwarka, Delhi - 110078</p>
           <p><i class="fa-solid fa-phone"></i> +91 8924879117</p>
-          <p><i class="fa-solid fa-envelope"></i> <a href="contact@helpinghutngo.in" class="about-links mail">contact@helpinghutngo.in</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="contact@helpinghutngo.in"
+              class="about-links mail">contact@helpinghutngo.in</a></p>
         </div>
       </div>
-      <div class="row verified">
-        <div class="col-md-3 m-5 mt-0">
-          <h5  class="about-head">Verified by</h5>
-          <div class="row w-100">
-            <div class="col-md-5 ps-5">
-              <img src="Images/NITI_Aayog.png" alt="NITI" class="about-img">
-            </div>
-            <div class="col-md-7">
-              <img src="Images/Darpan-logo.png" alt="Darpan" class="about-img">
-            </div>
-          </div>
-          
-        </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4 mt-4">
+      <div class="row h-100">
+        <div class="col-lg-4 col-md-3"></div>
+        <div class="col-lg-3 col-md-2"></div>
+        <div class="col-lg-5 col-md-6 mb-5 icon-div">
           <a href="www.facebook.com" class="icon-links">
             <i class="fa-brands fa-facebook fa-2x icons"></i>
           </a>
@@ -300,19 +291,18 @@
           <a href="www.linkedin.com" class="icon-links">
             <i class="fa-brands fa-linkedin fa-2x icons"></i>
           </a>
-          
-          
-          
-          
-          
+
+
+
+
+
         </div>
       </div>
     </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

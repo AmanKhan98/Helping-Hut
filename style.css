@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #4f4f51;
+}
+
+.help-hut {
+    margin-top: 25px;
+}
+
+#logo {
+    height: 40px;
+    width: 50px;
+}
+
+.nav-bg {
+    background-color: #d6d6d6;
+}
+
+.nav-align {
+    align-items: center;
+}
+
+.join-us {
+    background-color: #4f4f51;
+    color: #ffffff;
+}
+
+.donate {
+    background-color: #f58f7c;
+}
+
+.m-top {
+    margin-top: 5%;
+}
+
+.carousel-top {
+    position: absolute;
+    background-color: #f2c4ce;
+    opacity: 50%;
+    z-index: 15;
+}
+
+.carousel-heading {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-weight: 600;
+    color: #f58f7c;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    z-index: 20;
+}
+
+@-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(1, 1);
+    }
+    to {
+      -webkit-transform: scale(1.2, 1.2);
+    }
+  }
+  
+  @keyframes zoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.2, 1.2);
+    }
+  }
+  
+.carousel-inner .carousel-item > img {
+-webkit-animation: zoom 20s;
+animation: zoom 20s;
+}
+
+.body-div1 {
+    background-color: #b6b6b6;
+    border-radius: 10px;
+}
+
+.body-head {
+    font-weight: 600;
+}
+
+.body-para {
+    font-size: 22px;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-left: 25%;
+    text-align: justify;
+}
+
+.govern {
+    background-color: #f2c4ce;
+    border-radius: 10px;
+}
+
+.govern-grid {
+    justify-items: center;
+}
+
+.govern-img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+.govern-col {
+    text-align: center;
+    vertical-align: text-top;
+    color: #2c2b30;
+    padding: 20px 0px;
+}
+
+.govern-col .head {
+    font-family: 'Calibri Light';
+}
+
+.govern-col > h4 {
+    font-weight: 600;
+}
+
+.work {
+    background-color: #b6b6b6;
+    border-radius: 10px;
+}
+
+.work-col {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.work-img {
+    width: 100%;
+    height: 90%;
+    vertical-align: middle;
+}
+
+.beg {
+    display: flex;
+}
+
+.udaan { flex: 2.2222; }
+.beg1 { flex: 1.0602; }
+.beg2 { flex: 1.0104; }
+.char1 { flex: 1.3346; }
+.char2 { flex: 1.1752; }
+.char3 { flex: 1.1379; }
+.char4 { flex: 1.1917; }
+
+.count {
+    background-color: #f58f7c;
+    border-radius: 10px;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.count-col {
+    padding: 10px;
+    text-align: center;
+    color: #d6d6d6;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.row-count {
+    justify-content: center;
+}
+
+.vertical {
+    position: absolute;
+    padding: 1px;
+    height: 80px;
+    width: 0;
+    background-color: #ffffff;
+}
+
+.v1 { left: 25%; }
+.v2 { left: 50%; }
+.v3 { left: 73%; }
+.v4 { left: 34%; }
+.v5 { left: 66%; }
+
+@media (max-width: 991px) {
+    .m-top {
+        margin-top: 8%;
+    }
+    .carousel-heading {
+        font-size: 60px;
+    }
+    .body-para {
+        font-size: large;
+    }
+    .v1 { left: 33%; }
+    .v2 { left: 67%; }
+    .v3 { display: none; }
+    .v4 { left: 51%; }
+    .v5 { display: none; }
+}
+
+@media (max-width: 767px) {
+    .m-top {
+        margin-top: 11%;
+    }
+    .carousel-heading {
+        font-size: xx-large;
+    }
+    .vertical {
+        display: none;
+    }
+}
+
+.about {
+    background-color: #2c2b30;
+    color: #d6d6d6;
+}
+
+.about-head {
+    font-family: 'Calibri';
+    font-weight: 600;
+}
+
+.about p {
+    margin: 0;
+    font-family: 'Calibri Light';
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about-links {
+    text-decoration: none;
+}
+
+.mail {
+    color: white;
+}
+
+.verified {
+    text-align: center;
+}
+
+.about-img {
+    height: 60px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    position: relative;
+    top: 50%;
+    transition: transform .3s;
+}
+
+.about-img:hover {
+    transform: scale(1.2);
+}
+
+.icons {
+    padding-left: 5%;
+}
+
+.icon-div {
+    text-align: center;
+}
+
+.icon-links {
+    text-decoration: none;
+    color: #d6d6d6;
+}

@@ -38,6 +38,10 @@ body {
     background-color: #f58f7c;
 }
 
+.m-top {
+    margin-top: 5%;
+}
+
 .carousel-top {
     position: absolute;
     background-color: #f2c4ce;
@@ -185,6 +189,15 @@ animation: zoom 20s;
 .v5 { left: 66%; }
 
 @media (max-width: 991px) {
+    .m-top {
+        margin-top: 8%;
+    }
+    .carousel-heading {
+        font-size: 60px;
+    }
+    .body-para {
+        font-size: large;
+    }
     .v1 { left: 33%; }
     .v2 { left: 67%; }
     .v3 { display: none; }
@@ -193,6 +206,12 @@ animation: zoom 20s;
 }
 
 @media (max-width: 767px) {
+    .m-top {
+        margin-top: 11%;
+    }
+    .carousel-heading {
+        font-size: xx-large;
+    }
     .vertical {
         display: none;
     }
